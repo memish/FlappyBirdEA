@@ -14,6 +14,14 @@
 		47C56F8A1A5B17FB0026F528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47C56F891A5B17FB0026F528 /* Images.xcassets */; };
 		47C56F8D1A5B17FB0026F528 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47C56F8B1A5B17FB0026F528 /* LaunchScreen.xib */; };
 		47C56F991A5B17FB0026F528 /* FlappyBirdEATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C56F981A5B17FB0026F528 /* FlappyBirdEATests.m */; };
+		47C56FAA1A5B1D990026F528 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C56FA31A5B1D990026F528 /* background.png */; };
+		47C56FAB1A5B1D990026F528 /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C56FA41A5B1D990026F528 /* bird1.png */; };
+		47C56FAC1A5B1D990026F528 /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C56FA51A5B1D990026F528 /* bird2.png */; };
+		47C56FAD1A5B1D990026F528 /* col.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C56FA61A5B1D990026F528 /* col.png */; };
+		47C56FAE1A5B1D990026F528 /* floppyBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C56FA71A5B1D990026F528 /* floppyBackground.png */; };
+		47C56FAF1A5B1D990026F528 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C56FA81A5B1D990026F528 /* iTunesArtwork@2x.png */; };
+		47C56FB01A5B1D990026F528 /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47C56FA91A5B1D990026F528 /* sky.jpg */; };
+		47C56FB31A5B1EE70026F528 /* gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C56FB21A5B1EE70026F528 /* gameplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,15 @@
 		47C56F921A5B17FB0026F528 /* FlappyBirdEATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyBirdEATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C56F971A5B17FB0026F528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47C56F981A5B17FB0026F528 /* FlappyBirdEATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyBirdEATests.m; sourceTree = "<group>"; };
+		47C56FA31A5B1D990026F528 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		47C56FA41A5B1D990026F528 /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1.png; sourceTree = "<group>"; };
+		47C56FA51A5B1D990026F528 /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird2.png; sourceTree = "<group>"; };
+		47C56FA61A5B1D990026F528 /* col.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = col.png; sourceTree = "<group>"; };
+		47C56FA71A5B1D990026F528 /* floppyBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floppyBackground.png; sourceTree = "<group>"; };
+		47C56FA81A5B1D990026F528 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		47C56FA91A5B1D990026F528 /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
+		47C56FB11A5B1EE70026F528 /* gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameplay.h; sourceTree = "<group>"; };
+		47C56FB21A5B1EE70026F528 /* gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +103,8 @@
 				47C56F831A5B17FB0026F528 /* ViewController.h */,
 				47C56F841A5B17FB0026F528 /* ViewController.m */,
 				47C56F861A5B17FB0026F528 /* Main.storyboard */,
+				47C56FB11A5B1EE70026F528 /* gameplay.h */,
+				47C56FB21A5B1EE70026F528 /* gameplay.m */,
 				47C56F891A5B17FB0026F528 /* Images.xcassets */,
 				47C56F8B1A5B17FB0026F528 /* LaunchScreen.xib */,
 				47C56F7C1A5B17FB0026F528 /* Supporting Files */,
@@ -96,6 +115,7 @@
 		47C56F7C1A5B17FB0026F528 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				47C56FA21A5B1D990026F528 /* images */,
 				47C56F7D1A5B17FB0026F528 /* Info.plist */,
 				47C56F7E1A5B17FB0026F528 /* main.m */,
 			);
@@ -117,6 +137,20 @@
 				47C56F971A5B17FB0026F528 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47C56FA21A5B1D990026F528 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				47C56FA31A5B1D990026F528 /* background.png */,
+				47C56FA41A5B1D990026F528 /* bird1.png */,
+				47C56FA51A5B1D990026F528 /* bird2.png */,
+				47C56FA61A5B1D990026F528 /* col.png */,
+				47C56FA71A5B1D990026F528 /* floppyBackground.png */,
+				47C56FA81A5B1D990026F528 /* iTunesArtwork@2x.png */,
+				47C56FA91A5B1D990026F528 /* sky.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +233,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C56FAB1A5B1D990026F528 /* bird1.png in Resources */,
+				47C56FB01A5B1D990026F528 /* sky.jpg in Resources */,
+				47C56FAE1A5B1D990026F528 /* floppyBackground.png in Resources */,
 				47C56F881A5B17FB0026F528 /* Main.storyboard in Resources */,
+				47C56FAA1A5B1D990026F528 /* background.png in Resources */,
+				47C56FAF1A5B1D990026F528 /* iTunesArtwork@2x.png in Resources */,
 				47C56F8D1A5B17FB0026F528 /* LaunchScreen.xib in Resources */,
 				47C56F8A1A5B17FB0026F528 /* Images.xcassets in Resources */,
+				47C56FAC1A5B1D990026F528 /* bird2.png in Resources */,
+				47C56FAD1A5B1D990026F528 /* col.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47C56F851A5B17FB0026F528 /* ViewController.m in Sources */,
+				47C56FB31A5B1EE70026F528 /* gameplay.m in Sources */,
 				47C56F821A5B17FB0026F528 /* AppDelegate.m in Sources */,
 				47C56F7F1A5B17FB0026F528 /* main.m in Sources */,
 			);

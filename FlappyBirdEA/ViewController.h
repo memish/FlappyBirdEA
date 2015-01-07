@@ -11,5 +11,20 @@
 @interface ViewController : UIViewController
 
 
+
+@property (weak, nonatomic) IBOutlet UILabel *label1;
+
+
+
+
+- (IBAction)button1:(id)sender;
+
+
+
+
+
+
+
+
 @end
 
