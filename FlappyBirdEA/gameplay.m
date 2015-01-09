@@ -69,11 +69,12 @@ int stopDown=0;
     // Pass the selected object to the new view controller.
 }
 */
-
+//This is a big change
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     birdDirection = -15;
+    int myFoot=0;
    
     bird.image=[UIImage imageNamed:@"bird1.png"];
   
